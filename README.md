@@ -3,4 +3,4 @@ Spencer STAT545a working repo
 
 Test commit
 
-conflict 1
+new line, merge conflicts
