@@ -5,7 +5,9 @@ date: "2022-09-15"
 output: 
   html_document:
       toc: true
+      number_sections: true
       toc_float: true
+      
 ---
 
 ```{r setup, include=FALSE}
@@ -31,3 +33,13 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Mtcars Data Using datatable function
+
+Here's a display of the mtcars data.
+
+```{r, echo=FALSE}
+DT::datatable(mtcars)
+```
+
+The mtcars data has `r nrow(mtcars)` rows.
