@@ -2,7 +2,10 @@
 title: "22_09_15_rmarkdown_class"
 author: "Spencer"
 date: "2022-09-15"
-output: html_document
+output: 
+  html_document:
+      toc: true
+      toc_float: true
 ---
 
 ```{r setup, include=FALSE}
